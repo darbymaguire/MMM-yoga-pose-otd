@@ -1,5 +1,5 @@
 // Yoga Pose of the Day
-// Copied from MMM-Pokemon to get the framework, edits made for relevancy to my project
+// Copied from MMM-Pokemon (https://github.com/NolanKingdon/MMM-DailyPokemon/blob/master/MMM-DailyPokemon.js) to get the framework, edits made for relevancy to my project
 // Pulls a yoga pose from the JSON file created by scrape done by parsehub
 // API key: tx2BgHB0WxdW
 // Parsehub API docs: https://parsehub.com/docs/ref/api/v2/?javascript#get-last-ready-data
