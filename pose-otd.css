@@ -1,0 +1,96 @@
+/*
+ *
+ * MMM-Yoga Pose of the Day
+ * Copied from MMM-Pokemon to get the framework
+ *
+ * MIT Licensed.
+ *
+ *
+ */
+
+@font-face {
+	font-family: pokegb;
+	src: url(fonts/pokemon_font.ttf);
+	}
+
+#pose-wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	/*position: relative;
+	bottom: 30px;
+	top: 0px;*/
+}
+
+#flex-wrapper div {
+	width: 100%;
+	height: 175px;
+}
+
+#flex-wrapper {
+	display: flex;
+	align-content: center;
+}
+
+#pose-name {
+	border-bottom: 1px solid white;
+	color: white;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+#pose-subname {
+	text-align: center;
+	font-size: 0.6em;
+	margin-top: -20px;
+}
+
+#pose-pic {
+	width: 100px;
+	height: auto;
+}
+
+#pose-pic-grayscale {
+	position: relative;
+	bottom: 50px;
+	width: 200px;
+	height: auto;
+	filter: grayscale(100%);
+}
+
+#pose-pic-grayscale-type {
+	position: relative;
+	bottom: 100px;
+	width: 50px;
+	height: auto;
+	filter: grayscale(100%);
+}
+
+#pose-types {
+	padding: 0px;
+}
+
+#pose-types span {
+	text-decoration: none;
+	display: inline-block;
+	margin-right: 3px;
+	padding: 0px;
+}
+
+#pose-wrapper table {
+	line-height: 1em;
+}
+
+#pose-wrapper #pose-info{
+	text-align: center;
+}
+#pose-wrapper table tr td {
+	font-size: 12pt;
+	padding: 0px;
+	text-transform: capitalize;
+}
+
+#pose-table-name {
+	color: DDD;
+	font-weight: 800;
+	text-align: left;
+}
